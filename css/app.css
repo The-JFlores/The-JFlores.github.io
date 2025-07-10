@@ -224,18 +224,15 @@ main {
     text-decoration: underline;
   }
 
-footer {
-  background: #111;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-}
-
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+  footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 1rem;
+    font-family: "Orbitron", sans-serif;
+  }
+  
+  footer .highlight-name {
+    color: #ff0055;
+    font-weight: bold;
+  }
