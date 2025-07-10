@@ -4,39 +4,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css">
   <title>The-JFlores</title>
 </head>
 <body>
   <header>
+    <button id="menu-btn" class="menu-icon">&#9776;</button>
+
+    <nav id="menu" class="menu">
+      <a href="#bout-Me">About Me</a>
+      <a href="#projects">Projecs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
     <h1>Jose Flores</h1>
-    <p>Front-End Web Developer & UX Enthusiast</p>
+    <p>Web Developer focused on Back-End and code optimization.</p>
   </header>
 
   <main>
     <section id="about">
-      <h2>About Me</h2>
-      <p>Hello! I'm Jose, a passionate front-end developer based in Canada. I love building intuitive, responsive, and accessible user interfaces. I'm currently focused on web development, UX/UI design, and open source contributions.</p>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Jose, a dedicated mobile web developer based in Canada. I specialize in creating responsive and intuitive web applications optimized for mobile devices. Currently, I'm expanding my expertise in progressive web apps (PWA), performance optimization, and cross-platform compatibility.
+        </p>
+        <p>
+          Alongside my mobile development focus, I have solid foundations in HTML, CSS, and JavaScript, as well as experience with Linux environments, version control using GitHub, and UI/UX design principles using Adobe XD. I’m passionate about continuously learning new technologies and best practices to deliver seamless, user-friendly digital experiences.
+        </p>
+      </section>
     </section>
-
+   
     <section id="projects">
       <h2>Projects</h2>
-      <ul>
-        <li><a href="https://github.com/The-JFlores/July4_Assignment_3" target="_blank">Lucy – Open Source Inventory Scanner App</a></li>
-        <li><a href="https://github.com/The-JFlores" target="_blank">More projects on my GitHub</a></li>
+      <ul class="project-list">
+        <li class="project-item">
+          <a href="https://github.com/The-JFlores/July4_Assignment_3" target="_blank" rel="noopener noreferrer">
+            Lucy – Open Source Inventory Scanner App
+          </a>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>GitHub</span>
+          </div>
+        </li>
+    
+        <li class="project-item">
+          <a href="https://github.com/The-JFlores" target="_blank" rel="noopener noreferrer">
+            More projects on my GitHub
+          </a>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Linux</span>
+            <span>Adobe XD</span>
+          </div>
+        </li>
       </ul>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>You can reach me via email at <a href="mailto:thejflores.dev@gmail.com">thejflores.dev@gmail.com</a>.</p>
-      <p>Connect with me on <a href="https://www.linkedin.com/in/thejflores" target="_blank">LinkedIn</a>.</p>
+      <p>If you'd like to connect, collaborate, or just say hello, feel free to reach out!</p>
+      <p>Email: <a href="mailto:thejflores.dev@gmail.com">thejflores.dev@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/thejflores" target="_blank">linkedin.com/in/thejflores</a></p>
+      <p>GitHub: <a href="https://github.com/The-JFlores" target="_blank">github.com/The-JFlores</a></p>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Jose Flores. All rights reserved.</p>
   </footer>
+  <script src="script/app.js"></script>
   
 </body>
 </html>
