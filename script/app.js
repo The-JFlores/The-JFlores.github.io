@@ -25,3 +25,12 @@ document.addEventListener("DOMContentLoaded", () => {
     type();
   });
 });
+// Detectar clics en los enlaces del menú
+const menuLinks = document.querySelectorAll('#menu a');
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('show');
+    menuBtn.textContent = '☰'; // volver al ícono de hamburguesa
+  });
+});
