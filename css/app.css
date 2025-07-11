@@ -47,6 +47,10 @@ body {
   text-decoration: none;
   margin: 0.5rem 0;
 }
+.menu a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px; /* separa un poco el subrayado */
+}
 header {
   position: relative;
   height: 100vh;
